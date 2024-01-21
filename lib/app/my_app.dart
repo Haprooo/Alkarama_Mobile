@@ -2,9 +2,8 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:provider/provider.dart';
-import 'package:task_P2/core/enums/connectivity_status.dart';
-import 'package:task_P2/ui/shared/utlis.dart';
-
+import 'package:Alkarama_Mobile/core/enums/connectivity_status.dart';
+import 'package:Alkarama_Mobile/ui/shared/utlis.dart';
 
 import '../core/translation/app_translation.dart';
 import '../ui/views/splash_view/spalsh_view.dart';

@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:task_P2/core/data/models/product_model.dart';
+import 'package:Alkarama_Mobile/core/data/models/product_model.dart';
 
 class CartModel {
   ProductModel? productModel;

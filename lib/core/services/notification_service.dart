@@ -4,10 +4,9 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:get/get.dart';
 
 import 'package:get/utils.dart';
-import 'package:task_P2/core/data/models/notification_model.dart';
+import 'package:Alkarama_Mobile/core/data/models/notification_model.dart';
 
-import 'package:task_P2/ui/shared/utlis.dart';
-
+import 'package:Alkarama_Mobile/ui/shared/utlis.dart';
 
 enum AppState { TERMINATED, BACKGROUND, FOREGROUND }
 
@@ -76,9 +75,7 @@ class NotificationService {
     if (appState == AppState.FOREGROUND) {
       //! -- show notification
     } else {
-      if (model.notifctionType == 'order') {
-
-      }
+      if (model.notifctionType == 'order') {}
     }
   }
 }

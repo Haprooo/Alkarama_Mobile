@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_P2/ui/shared/colors.dart';
-import 'package:task_P2/ui/shared/utlis.dart';
+import 'package:Alkarama_Mobile/ui/shared/colors.dart';
+import 'package:Alkarama_Mobile/ui/shared/utlis.dart';
 
 class CustomFieldChall extends StatelessWidget {
   final TextEditingController? controller;
@@ -14,11 +14,12 @@ class CustomFieldChall extends StatelessWidget {
       this.controller,
       this.hintText,
       this.maxLines,
-      this.hintStyle, this.style, this.validator});
+      this.hintStyle,
+      this.style,
+      this.validator});
 
   @override
   Widget build(BuildContext context) {
-     
     return TextFormField(
       validator: validator,
       maxLines: maxLines,
@@ -37,7 +38,7 @@ class CustomFieldChall extends StatelessWidget {
         hintStyle: hintStyle ??
             TextStyle(
               color: AppColors.color4,
-              fontSize: screenWidth(18) ,
+              fontSize: screenWidth(18),
             ),
       ),
     );

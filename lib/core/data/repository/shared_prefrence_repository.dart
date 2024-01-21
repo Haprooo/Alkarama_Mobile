@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:task_P2/core/data/models/cart_model.dart';
-import 'package:task_P2/core/data/models/token_info.dart';
-import 'package:task_P2/core/enums/data_type.dart';
+import 'package:Alkarama_Mobile/core/data/models/cart_model.dart';
+import 'package:Alkarama_Mobile/core/data/models/token_info.dart';
+import 'package:Alkarama_Mobile/core/enums/data_type.dart';
 
 class SharedPrefrenceRepository {
   SharedPreferences pref = Get.find<SharedPreferences>();
@@ -94,13 +94,10 @@ class SharedPrefrenceRepository {
 
   List<CartModel> getCartList() {
     if (pref.containsKey(PREF_CART_LIST))
-    
       return CartModel.decode(getPrefrence(PREF_CART_LIST));
     else
       return [];
   }
-
-  
 
   //*====================================
 

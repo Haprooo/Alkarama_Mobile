@@ -1,7 +1,7 @@
 import 'package:get/get.dart';
-import 'package:task_P2/core/data/models/cart_model.dart';
-import 'package:task_P2/core/data/models/product_model.dart';
-import 'package:task_P2/ui/shared/utlis.dart';
+import 'package:Alkarama_Mobile/core/data/models/cart_model.dart';
+import 'package:Alkarama_Mobile/core/data/models/product_model.dart';
+import 'package:Alkarama_Mobile/ui/shared/utlis.dart';
 
 class CartService {
   RxList<CartModel> cartList = storage.getCartList().obs;

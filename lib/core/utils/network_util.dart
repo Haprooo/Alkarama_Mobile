@@ -4,9 +4,8 @@ import 'package:bot_toast/bot_toast.dart';
 import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 import 'package:path/path.dart' as path;
-import 'package:task_P2/core/enums/request_type.dart';
+import 'package:Alkarama_Mobile/core/enums/request_type.dart';
 import 'package:http_parser/http_parser.dart';
-
 
 class NetworkUtil {
   static String baseUrl = 'fakestoreapi.com';
@@ -38,8 +37,6 @@ class NetworkUtil {
             await http.put(url, body: jsonEncode(body), headers: headers);
         break;
     }
-
- 
 
     Map<String, dynamic> jsonResponse = {};
     dynamic result;

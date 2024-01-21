@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:task_P2/ui/shared/utlis.dart';
-import 'package:task_P2/ui/views/splash_view/splash_controller.dart';
+import 'package:Alkarama_Mobile/ui/shared/utlis.dart';
+import 'package:Alkarama_Mobile/ui/views/splash_view/splash_controller.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});

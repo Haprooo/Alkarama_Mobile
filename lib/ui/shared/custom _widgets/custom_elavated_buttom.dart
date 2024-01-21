@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_P2/ui/shared/colors.dart';
-import 'package:task_P2/ui/shared/utlis.dart';
+import 'package:Alkarama_Mobile/ui/shared/colors.dart';
+import 'package:Alkarama_Mobile/ui/shared/utlis.dart';
 
 // enum GradientType {
 //   NEWGRADIENT,
@@ -34,14 +34,12 @@ class MyElevatedButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
-
     return InkWell(
       mouseCursor: SystemMouseCursors.click,
       onTap: onPressed,
       child: Container(
           alignment: childAlign,
-          width: width ?? screenWidth(1.25) ,
+          width: width ?? screenWidth(1.25),
           height: height ?? screenWidth(8),
           decoration: BoxDecoration(
             color: backgroundColor,

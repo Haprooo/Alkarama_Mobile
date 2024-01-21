@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:task_P2/ui/shared/colors.dart';
-import 'package:task_P2/ui/shared/utlis.dart';
+import 'package:Alkarama_Mobile/ui/shared/colors.dart';
+import 'package:Alkarama_Mobile/ui/shared/utlis.dart';
 
 class CustomProfileIcon extends StatelessWidget {
   final double hw;
@@ -18,7 +18,6 @@ class CustomProfileIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     if (assetImg != null && urlOfImg == null) {
       return Container(
         width: screenWidth(hw),
