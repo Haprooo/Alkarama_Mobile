@@ -1,3 +1,4 @@
+import 'package:Alkarama_Mobile/ui/shared/shared_widgets/section_header.dart';
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
