@@ -4,6 +4,23 @@
             "outputFile": "D:\\Flutter Projects\\Alkarama_Mo\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Hassan\\.gradle\\caches\\transforms-3\\214da2af7000628f5d75e14776a1b456\\transformed\\browser-1.5.0\\res\\values-bn\\values-bn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,161,263,372",
+                        "endColumns": "105,101,108,105",
+                        "endOffsets": "156,258,367,473"
+                    },
+                    "to": {
+                        "startLines": "27,28,29,30",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2951,3057,3159,3268",
+                        "endColumns": "105,101,108,105",
+                        "endOffsets": "3052,3154,3263,3369"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Hassan\\.gradle\\caches\\transforms-3\\12d099ea686a1c4551cfcd3b667543a1\\transformed\\core-1.10.1\\res\\values-bn\\values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
@@ -13,11 +30,11 @@
                         "endOffsets": "149,251,353,456,557,659,779,880"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,27",
+                        "startLines": "2,3,4,5,6,7,8,31",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,154,256,358,461,562,664,2951",
+                        "startOffsets": "55,154,256,358,461,562,664,3374",
                         "endColumns": "98,101,101,102,100,101,119,100",
-                        "endOffsets": "149,251,353,456,557,659,779,3047"
+                        "endOffsets": "149,251,353,456,557,659,779,3470"
                     }
                 },
                 {

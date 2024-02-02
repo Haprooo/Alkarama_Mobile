@@ -6,6 +6,7 @@ class President extends StatelessWidget {
   final String image;
   final String name;
   final double width;
+
   const President({
     super.key,
     required this.image,
@@ -22,6 +23,7 @@ class President extends StatelessWidget {
         child: Container(
           alignment: Alignment.bottomCenter,
           decoration: BoxDecoration(
+              color: Colors.grey,
               borderRadius: BorderRadius.circular(70),
               image: DecorationImage(
                   fit: BoxFit.contain,

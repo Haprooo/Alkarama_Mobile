@@ -47,6 +47,8 @@ dependencies:
   get: ^4.6.5
   connectivity_plus: ^3.0.2
   provider: ^6.0.5
+  url_launcher: ^6.1.14
+  youtube: ^1.0.1
 
 
   location: ^5.0.0

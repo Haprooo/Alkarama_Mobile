@@ -67,13 +67,15 @@ class CustomText extends StatelessWidget {
             fontFamily: fontFamily,
             fontWeight: textweight,
             height: lineHeight,
-            color: textColor);
+            color: textColor,
+            overflow: TextOverflow.ellipsis);
       default:
         return TextStyle(
             fontSize: textSize,
             fontFamily: fontFamily,
             fontWeight: textweight,
-            color: textColor);
+            color: textColor,
+            overflow: TextOverflow.visible);
     }
   }
 }
