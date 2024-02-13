@@ -16,19 +16,20 @@ class CustomText extends StatelessWidget {
     this.text = "22",
     this.type = TextStyleType.SMALL,
     this.textColor,
-    this.textweight,
+    
     this.textSize,
     this.fontFamily,
     this.textAlign,
     this.maxLines,
-    this.lineHeight,
-     required FontWeight fontWeight,
+    this.lineHeight,  this.textweight,
+     
   });
 
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
     return Text(
+
       text,
       style: getStyle(size),
       textAlign: textAlign,

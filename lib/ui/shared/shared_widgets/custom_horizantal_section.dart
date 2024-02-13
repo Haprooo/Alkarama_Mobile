@@ -26,12 +26,12 @@ class CustomHorizantalSection extends StatelessWidget {
 
 
               child: CustomText(  
-                fontWeight: FontWeight.normal, 
+                textweight: FontWeight.w400, 
               text:'$title',
               textColor: Colors.black,
               type: TextStyleType.CUSTOM,
               fontFamily: "Cairo",
-              textweight:FontWeight.w700),
+              ),
              ),
 
 
@@ -48,12 +48,12 @@ class CustomHorizantalSection extends StatelessWidget {
 
 
               child: CustomText( 
-                fontWeight: FontWeight.normal,
+                textweight: FontWeight.w400,
               text:'$description',
               type: TextStyleType.CUSTOM,
               textColor: Colors.black,
              fontFamily:'Cairo',
-            textweight: FontWeight.w400,
+           
              ),
              ),
                           ],

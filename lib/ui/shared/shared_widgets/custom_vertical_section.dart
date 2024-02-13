@@ -38,7 +38,7 @@ import 'package:flutter/material.dart';
             start: screenWidth(2.5),
             end: screenWidth(20)), 
               child: CustomText(text: '$title',
-              fontWeight: FontWeight.normal,
+              textweight: FontWeight.w400,
               textColor: Colors.black,
               textSize: screenWidth(22),
               ),
@@ -52,7 +52,7 @@ import 'package:flutter/material.dart';
              CustomText(
             textAlign: TextAlign.end,
           text:'$description',
-            textColor: Colors.black, fontWeight: FontWeight.normal,
+            textColor: Colors.black, textweight: FontWeight.w400
                   
             ),
                   ],

@@ -62,7 +62,7 @@ class CustomDetailsMatch extends StatelessWidget {
           Padding(
           padding: EdgeInsetsDirectional.only(start: screenWidth(40),),
           child: CustomText(
-            fontWeight: FontWeight.normal,
+            textweight: FontWeight.w400,
           text: '$firstteamName',
           textSize: 15,
           fontFamily: 'Cairo',
@@ -87,7 +87,7 @@ class CustomDetailsMatch extends StatelessWidget {
            
             ), 
            child: CustomText(
-            fontWeight: FontWeight.normal,
+            textweight: FontWeight.w400,
             text: '$plceName ',
            ),
            ),
@@ -97,7 +97,7 @@ class CustomDetailsMatch extends StatelessWidget {
             top: screenWidth(35),
             ),
             child: CustomText(
-              fontWeight: FontWeight.normal,
+              
             text: '   $date',
             textSize:16,
             type:TextStyleType.CUSTOM,
@@ -126,7 +126,7 @@ class CustomDetailsMatch extends StatelessWidget {
                Padding(
             padding: EdgeInsetsDirectional.only(start: screenWidth(40),),
             child: CustomText(
-              fontWeight: FontWeight.normal,
+              textweight: FontWeight.w400,
             text: '$secondteamName',
             textSize: 15,
             fontFamily: 'Cairo',

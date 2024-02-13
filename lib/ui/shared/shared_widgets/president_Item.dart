@@ -39,7 +39,7 @@ class President extends StatelessWidget {
               height: width / 7.7,
               child: FittedBox(
                 child: CustomText(
-                  fontWeight: FontWeight.normal,
+                  textweight: FontWeight.w400,
                   text: name,
                   type: TextStyleType.CUSTOM,
                   lineHeight: 1,

@@ -57,7 +57,7 @@ class MainDetailsMatchCustom extends StatelessWidget {
               child: CustomText(
               text: 'الكرامة',
               textSize: 15,
-              fontFamily: 'Cairo', fontWeight: FontWeight.w100,
+              fontFamily: 'Cairo', textweight: FontWeight.w100,
               )
               ),
               ],
@@ -65,7 +65,7 @@ class MainDetailsMatchCustom extends StatelessWidget {
               
                 CustomText(text: '0',
                 textSize: 30,
-                fontWeight:FontWeight.w700),
+                textweight:FontWeight.w700),
               
 
                Padding(
@@ -75,7 +75,7 @@ class MainDetailsMatchCustom extends StatelessWidget {
                              ),
                  child: Column(children: [
                              CustomText(
-                             text: 'الملعب البلدي', fontWeight: FontWeight.w400,
+                             text: 'الملعب البلدي', textweight: FontWeight.w400,
                              ),
                            
                    Padding(
@@ -91,7 +91,7 @@ class MainDetailsMatchCustom extends StatelessWidget {
                    child: CustomText(
                     text: 'live',
                    fontFamily: 'Cairo',
-                   textColor: AppColors.white_color, fontWeight: FontWeight.normal,
+                   textColor: AppColors.white_color, textweight: FontWeight.w400,
                    ),
                  ),
                  width: screenWidth(10),     
@@ -103,7 +103,7 @@ class MainDetailsMatchCustom extends StatelessWidget {
                              text: ' السبت  2/12   12:12م',
                              textSize:16,
                              type:TextStyleType.CUSTOM,
-                             textweight:FontWeight.w700, fontWeight: FontWeight.normal,
+                             textweight:FontWeight.w700,
                              ),
                  
                              ],),
@@ -116,7 +116,7 @@ class MainDetailsMatchCustom extends StatelessWidget {
                   ),
                   child: CustomText(text: '5',
                   textSize: 30,
-                  fontWeight:FontWeight.w500),
+                  textweight:FontWeight.w500),
                 ),
 
 
@@ -135,7 +135,7 @@ class MainDetailsMatchCustom extends StatelessWidget {
                 child: CustomText(
                 text: 'الوثبة',
                 textSize: 15,
-                fontFamily: 'Cairo', fontWeight: FontWeight.normal,
+                fontFamily: 'Cairo', textweight: FontWeight.w400,
                 )
                 ),
                ],),

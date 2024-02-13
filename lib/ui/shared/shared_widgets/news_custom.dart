@@ -46,7 +46,7 @@ class NewsCustom extends  StatelessWidget {
                       textSize: 15,
                       fontFamily: 'Cairo',
                       textColor: AppColors.black_color,
-                       fontWeight: FontWeight.normal,
+                       textweight: FontWeight.w400,
                        maxLines: 2,
                       ),
                     ],
