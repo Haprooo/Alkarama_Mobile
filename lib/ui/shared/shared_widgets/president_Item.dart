@@ -7,7 +7,7 @@ class President extends StatelessWidget {
   final String name;
   final double width;
   const President({
-    super.key,
+  super.key,
     required this.image,
     required this.name,
     required this.width,
@@ -39,6 +39,7 @@ class President extends StatelessWidget {
               height: width / 7.7,
               child: FittedBox(
                 child: CustomText(
+                  fontWeight: FontWeight.normal,
                   text: name,
                   type: TextStyleType.CUSTOM,
                   lineHeight: 1,

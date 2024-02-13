@@ -71,7 +71,7 @@ void changeLanguage(String code) {
 
 SharedPrefrenceRepository get storage => Get.find<SharedPrefrenceRepository>();
 ConnectivitySerivce get connectivitySerivce => Get.find<ConnectivitySerivce>();
-LocationService get locationService => Get.find<LocationService>();
+// LocationService get locationService => Get.find<LocationService>();
 Connectivity get connectivity => Get.find<Connectivity>();
 
 AuthRepository get authRepository => Get.find<AuthRepository>();

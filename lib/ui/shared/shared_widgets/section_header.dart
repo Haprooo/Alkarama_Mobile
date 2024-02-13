@@ -20,7 +20,7 @@ class SetctionHeader extends StatelessWidget {
                 type: TextStyleType.CUSTOM,
                 text: title,
                 fontFamily: "Cairo",
-                textSize: screenWidth(20),
+                textSize: screenWidth(20), fontWeight: FontWeight.normal,
               ),
               SizedBox(
                 height: 5,
@@ -64,6 +64,7 @@ class SetctionHeader extends StatelessWidget {
         InkWell(
           onTap: () {},
           child: CustomText(
+            fontWeight: FontWeight.normal,
             type: TextStyleType.CUSTOM,
             text: "مشاهدة المزيد ",
             fontFamily: "Cairo-Regular",

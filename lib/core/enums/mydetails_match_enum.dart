@@ -1,0 +1,4 @@
+enum MyDetailsMatch {
+  LIVE,
+  NOLIVE,
+}

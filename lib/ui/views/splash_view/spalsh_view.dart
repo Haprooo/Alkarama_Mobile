@@ -15,6 +15,7 @@ class SplashView extends StatefulWidget {
   State<SplashView> createState() => _SplashViewState();
 }
 
+
 class _SplashViewState extends State<SplashView> {
   //!   Navigator.push => Get.to(LandingView());
   //?    Navigator.pushReplacement  => Get.off(LandingView());
@@ -24,12 +25,12 @@ class _SplashViewState extends State<SplashView> {
   SplashController controller = Get.put(SplashController());
 
   @override
-  Widget build(BuildContext context) {
+   Widget build(BuildContext context) {
     return SafeArea(
-      child: Scaffold(
-        body: Padding(
-          padding: EdgeInsetsDirectional.symmetric(horizontal: screenWidth(20)),
-          child: SingleChildScrollView(
+    child: Scaffold(
+    body: Padding(
+    padding: EdgeInsetsDirectional.symmetric(horizontal: screenWidth(20)),
+    child: SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisSize: MainAxisSize.min,
@@ -58,9 +59,9 @@ class _SplashViewState extends State<SplashView> {
                 SizedBox(
                   height: 22.5,
                 ),
-                Row(
+                  Row(
                   children: [
-                    MyContainer(
+                  MyContainer(
                       image: "photo2",
                       width: screenWidth(3),
                       height: screenWidth(2),

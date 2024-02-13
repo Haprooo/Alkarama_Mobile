@@ -1,4 +1,4 @@
-#Sun Jan 28 09:58:53 GMT+02:00 2024
-base.0=D\:\\Flutter Projects\\Alkarama_Mo\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-path.0=classes.dex
+#Sun Feb 11 17:41:33 AST 2024
+base.0=C\:\\Users\\huda\\Desktop\\alkarama\\Alkarama_Mobile\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
+path.0=classes.dex

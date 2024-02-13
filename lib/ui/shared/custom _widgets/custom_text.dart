@@ -22,6 +22,7 @@ class CustomText extends StatelessWidget {
     this.textAlign,
     this.maxLines,
     this.lineHeight,
+     required FontWeight fontWeight,
   });
 
   @override

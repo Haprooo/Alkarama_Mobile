@@ -1,10 +1,9 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:firebase_core/firebase_core.dart';
+// import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:Alkarama_Mobile/core/data/repository/auth_repository.dart';
-
 import 'package:Alkarama_Mobile/core/services/location_service.dart';
 import 'package:Alkarama_Mobile/firebase_options.dart';
 import 'app/my_app.dart';
@@ -28,22 +27,22 @@ Future main() async {
   );
 
   Get.put(ConnectivitySerivce());
-  Get.put(LocationService());
+  // Get.put(LocationService());
   Get.put(Connectivity());
 
   Get.lazyPut(
     () => AuthRepository(),
   );
 
-  try {
-    await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
-    );
+  // try {
+  //   await Firebase.initializeApp(
+  //     options: DefaultFirebaseOptions.currentPlatform,
+  //   );
 
-    Get.put(NotificationService());
-  } catch (e) {
-    print(e);
-  }
+  //   Get.put(NotificationService());
+  // } catch (e) {
+  //   print(e);
+  // }
 
   runApp(const MyApp());
 }

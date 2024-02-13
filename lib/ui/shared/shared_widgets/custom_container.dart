@@ -55,6 +55,7 @@ class MyContainer extends StatelessWidget {
     switch (type) {
       case MyContainerType.HORIZONTAL:
         return CustomText(
+          fontWeight: FontWeight.normal,
           type: TextStyleType.CUSTOM,
           text: text ?? "",
           fontFamily: "Cairo",
@@ -66,6 +67,7 @@ class MyContainer extends StatelessWidget {
         return FittedBox(
             fit: BoxFit.contain,
             child: CustomText(
+              fontWeight: FontWeight.normal,
               type: TextStyleType.CUSTOM,
               text: text ?? "",
               fontFamily: "Cairo",
