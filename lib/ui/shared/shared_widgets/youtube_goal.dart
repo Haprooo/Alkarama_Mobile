@@ -15,7 +15,7 @@ class YoutubeGoal extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        launche(url);
+        LaunchService.launche(url);
       },
       child: Container(
         decoration: BoxDecoration(
@@ -40,7 +40,7 @@ class YoutubeGoal extends StatelessWidget {
                   image: DecorationImage(
                     image: NetworkImage(
                       YoutubeThumbnail(
-                        youtubeId: convertUrlToId(url),
+                        youtubeId: LaunchService.convertUrlToId(url),
                       ).mq(),
                     ),
                     fit: BoxFit.cover,

@@ -1,3 +1,4 @@
+import 'package:Alkarama_Mobile/core/services/launchurl_service.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -29,6 +30,7 @@ Future main() async {
 
   Get.put(ConnectivitySerivce());
   Get.put(LocationService());
+  Get.lazyPut(() => LaunchUrlService());
   Get.put(Connectivity());
 
   Get.lazyPut(
